@@ -1,27 +1,31 @@
 /*** html tags ***/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 body {
   max-width: 1440px;
-  font-family: 'Public Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: hsl(233, 8%, 62%);
   line-height: 1.5;
   margin: 0;
 }
 
 button {
-  background: linear-gradient(to right, #31d35c 5%, #2bb7da 100%);
+  background: rgb(44, 43, 43);
+  /* linear-gradient(to right, #31d35c 5%, #2bb7da 100%) */
   border-radius: 21px;
   border-width: 0px;
   display: inline-block;
   cursor: pointer;
-  color: #ffffff;
+  color: #f8f9fa;
+  border-color: #f8f9fa;
   font-size: 17px;
   padding: 10px 25px;
-  text-decoration: none;
-  text-shadow: 0px 1px 0px #2f6627;
 }
 
 button:hover {
-  background: linear-gradient(to right, #31d35c 5%, #2bb7da 100%);
+  background: white;
+  color: black;
+  /* background: linear-gradient(to right, #31d35c 5%, #2bb7da 100%); */
   opacity: 0.8;
 }
 
@@ -49,13 +53,13 @@ h4 {
 .navbar-div a {
   color: hsl(233, 8%, 62%);
   text-decoration: none;
-  padding-bottom: 10px;
+  padding: 10px;
   margin-left: 10px;
 }
 
 .navbar-div a:hover {
   color: hsl(233, 26%, 24%);
-  border-bottom: solid 3px hsl(136, 65%, 51%);
+  border-bottom: solid 3px hsl(0, 0%, 17%);
 }
 .hamburger-icon{
   display: none;
@@ -63,13 +67,13 @@ h4 {
 .close-icon{
   display: none;
 }
-/* .top-container {
+.top-container {
   display: flex;
-  background: url("../images/bg-intro-desktop.svg") no-repeat hsl(0, 0%, 98%);
+  /* background: url("../images/bg-intro-desktop.svg") no-repeat hsl(0, 0%, 98%); */
   background-position: 300% 50%;
   padding: 10%;
   overflow: hidden;
-} */
+}
 
 .main-heading h1 {
   width: 250px;
