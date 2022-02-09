@@ -1,4 +1,4 @@
-// import logo from 'public\logo.svg'
+// import logo from '.public\logo.png'; 
 
 function Navbar() {
   return (
@@ -10,9 +10,9 @@ function Navbar() {
       <div className="dropdown-links">
         <a href="#">Home</a>
         <a href="#">About</a>
-        <a href="#">Contact</a>
-        <a href="#">Blog</a>
-        <a href="#">Careers</a>
+        <a href="#bottom-div">Blog</a>
+        <a href="#last-container">Contact</a>
+        <a href="https://saltpe.notion.site/saltpe/Intern-at-SALT-920b1e418fc3444ab758ef07a07d9561" target={'_blank'}>Careers</a>
       </div>
     </div>
     <button type="button" name="button"> Request Invite</button>

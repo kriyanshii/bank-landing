@@ -4,6 +4,8 @@ import Navbar from "./components/Navbar";
 import TopContainer from "./components/TopContainer"
 import Middle from "./components/Middle"
 import Bottom from "./components/Bottom"
+import Contact from "./components/Contact"
+
 
 
 function App() {
@@ -14,6 +16,7 @@ function App() {
         <TopContainer />
         <Middle />
         <Bottom />
+        <Contact />
       </body>
     </>
   );
