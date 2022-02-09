@@ -1,32 +1,41 @@
-import React from 'react'
 
 function Bottom() {
   return (
     <div className="last-container">
     <h4>Latest Articles</h4>
 
-    <div className="last-container-cards">
+    <div className="cards-div">
       <div className="showcase-img">
-        <p>By Claire Robinson</p>
-        <h5> Receive money in any currency with no fees</h5>
-        <p>The world is getting smaller and we’re becoming more mobile. So why should you be
-          forced to only receive money in a single …</p>
+        <a href="https://blog.salt.pe/9-common-mistakes-every-web-development-agency-makes-ckysdtnd964321jo3ec45j2pc/">
+          <img src="https://d3qv1kdjsarkxh.cloudfront.net/site_cuid_ckunzpgt125001pphuz4n48xp/images/2-2-1643010361705-compressed.jpg" alt="" className="image"/>
+          <div className="overlay">
+            <h2 className="text">
+              T9 Common Mistakes Every Web Development Agency Makes
+            </h2>
+          </div>
+          </a>
       </div>
 
       <div className="showcase-img">
-        <p> By Wilson Hutton</p>
-        <h5>Treat yourself without worrying about money</h5>
-        <p> Our simple budgeting feature allows you to separate out your spending and set
-          realistic limits each month. That means you …</p>
+        <a href="https://blog.salt.pe/founders-guide-to-vital-startup-metrics-make-better-decisions-ckyidc0qt510281ko5dxjwkx51/">
+          <img src="https://d3qv1kdjsarkxh.cloudfront.net/site_cuid_ckunzpgt125001pphuz4n48xp/images/1-1-1642404853805-compressed.jpg" alt="" className="image"/>
+          <div className="overlay">
+            <h2 className="text">
+            Founder’s Guide To Vital Startup Metrics - Make better decisions
+            </h2>
+          </div>
+          </a>
       </div>
 
       <div className="showcase-img">
-        <p>By Wilson Hutton</p>
-        <h5> Take your Easybank card wherever you go</h5>
-        <p>We want you to enjoy your travels. This is why we don’t charge any fees on purchases
-          while you’re abroad. We’ll even show you …</p>
+        <a href="https://blog.salt.pe/term-sheet-prepared-here-are-the-next-steps-to-close-the-funding-ckz2brmpl71211lp4ydq91cxv/">
+          <img src="https://d3qv1kdjsarkxh.cloudfront.net/site_cuid_ckunzpgt125001pphuz4n48xp/images/1-5-1643879880126-compressed.jpg" alt="" className="image"/>
+          <div className="overlay">
+            <h2 className="text">
+              Term Sheet Prepared? Here are the Next Steps to Close the Funding</h2>
+          </div>
+          </a>
       </div>
-
 
     </div>
   </div>
