@@ -21,7 +21,7 @@ function Contact() {
       </div>
 
       <div class="about-info">
-        <button type="button" name="button"> Request Invite</button>
+        <button type="button" name="button">Get Started</button>
 
         © Kriyanshi Shah. All Rights Reserved
       </div>

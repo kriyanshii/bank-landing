@@ -4,7 +4,7 @@ import React from 'react'
 function TopContainer() {
   return (
     <div>
-      <div className="top-container">
+      <div className="top-container" id="top-container">
         <div className="main-heading">
             <h1 className='typing-demo'><b>Not your average</b></h1>
             <h1 className='typing-demo'><b>banking experience.</b></h1>
@@ -13,7 +13,7 @@ function TopContainer() {
             <p> Banking, but seasoned with SALT. <br></br>
 We deal with all things related to global<br></br>
 business banking so that you don't have to.</p>
-            <button type="button" name="button">Request Invite</button>
+            <button type="button" name="button">Get Started</button>
         </div>
         <div className="mobile-login-div">
             <form>

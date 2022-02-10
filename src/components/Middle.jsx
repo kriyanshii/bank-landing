@@ -1,7 +1,7 @@
 
 function Middle() {
   return (
-    <div className="middle-container">
+    <div className="middle-container" id="middle-container">
     <h1 className="heading">Business banking has a new address,
 and it is reliable!</h1>
 
