@@ -246,7 +246,7 @@ p{
 
 
 /** media screen classes*/
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 700px) {
   body {
     text-align: center;
   }
