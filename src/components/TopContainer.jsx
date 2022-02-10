@@ -8,8 +8,6 @@ function TopContainer() {
         <div className="main-heading">
             <h1 className='typing-demo'><b>Not your average</b></h1>
             <h1 className='typing-demo'><b>banking experience.</b></h1>
-
-
             <p> Banking, but seasoned with SALT. <br></br>
 We deal with all things related to global<br></br>
 business banking so that you don't have to.</p>

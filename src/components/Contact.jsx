@@ -4,7 +4,7 @@ function Contact() {
   return (
     <div className="bottom-div" id ="bottom-div">
       <div className="about-info">
-        <img className="logo-img" src="images/logo-footer.svg" alt="" />
+        <img className="logo-img" src="" alt="" />
 
         <span>
         </span>
