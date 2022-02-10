@@ -75,6 +75,7 @@ p{
 .close-icon{
   display: none;
 }
+
 .top-container {
   display: flex;
   /* background: url(../images/bg-intro-desktop.svg) no-repeat hsl(0, 0%, 98%); */
@@ -122,6 +123,7 @@ p{
   padding: 30px 0;
 }
 
+/* login */
 .mobile-login-div {
   display: inline-block;
   padding-top: 0px;
@@ -150,9 +152,19 @@ p{
   /* box-shadow: 5px 5px 5px #eee; */
 }
 
+.line-1 {
+  height: 1px;
+  background: black;
+  width: 60%;
+  margin: 5px auto 30px;
+  /* margin-left: auto;
+  margin-right: auto; */
+
+}
+
 .heading{
   text-align: center;
-  padding: 30px;
+  padding: 10px;
 }
 
 .mobile-img {
