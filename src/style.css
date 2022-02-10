@@ -262,13 +262,13 @@ p{
     }
 
 
-  .top-container {
-    flex-direction: column;
-    /* background-image: url("../images/bg-intro-mobile.svg"); */
+  /* .top-container {
+    flex-direction: column-reverse;
+    background-image: url("../images/bg-intro-mobile.svg");
     background-position: top;
     background-size: contain;
     padding: 0 0 100px 0;
-  }
+  } */
 
   .main-heading h1 {
     width: 60%;
@@ -283,7 +283,7 @@ p{
 
   .mobile-login-div {
     position: relative;
-    left: 20%;
+    left: 0;
     right: 0;
     width: 60%;
     display: inline-block;

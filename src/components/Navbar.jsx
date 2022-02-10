@@ -4,7 +4,7 @@
 function Navbar() {
   return (
     <div className="navbar-div">
-      {/* <img className="logo-img" src="" alt="" /> */}
+      <img className="logo-img" src="" alt="" />
     <div className="dropdown">
       {/* <img className="hamburger-icon" onclick="dropdown(this , 'show')" src="public\icon-hamburger.svg" alt="" /> */}
       {/* <img className="close-icon" onclick="dropdown(this , 'close')" src="public\icon-close.svg" alt="" /> */}
