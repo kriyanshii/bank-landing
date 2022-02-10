@@ -4,7 +4,7 @@ function Middle() {
     <div className="middle-container" id="middle-container">
     <h1 className="heading">Business banking has a new address,
 and it is reliable!</h1>
-    <div class="line-1"></div>
+    <div className="line-1"></div>
 
 
     <div className="cards-div">

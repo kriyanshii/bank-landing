@@ -1,52 +1,58 @@
 /*** html tags ***/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 body {
   max-width: 2000px;
   font-family: 'Poppins', sans-serif;
-  color: hsl(233, 8%, 62%);
+  color: #161616;
   line-height: 1.5;
   margin: 0;
-  /* background: #161616; */
-  background: #fff;
+  background: #161616;
+  /* background: #fff; */
 }
 
 button {
-  background: #161616;
+  color: #161616;
+  /* background: #fff; */
   height: 40px;
   /* linear-gradient(to right, #31d35c 5%, #2bb7da 100%) */
   border-radius: 21px;
   border-width: 0px;
   display: inline-block;
   cursor: pointer;
-  color: #f8f9fa;
+  background: #f8f9fa;
   border-color: #f8f9fa;
   font-size: 17px;
   padding: 10px 25px;
 }
 
 button:hover {
-  background: white;
-  color: black;
+  color: white;
+  background: #161616;
   /* background: linear-gradient(to right, #31d35c 5%, #2bb7da 100%); */
   opacity: 0.8;
 }
 
 h1, h2, h3, h4, h5 {
   color: hsl(233, 26%, 24%);
+  /* color: #fff; */
+  font-weight: 900;
   margin: 0;
 }
 
 h4 {
   font-size: 2rem;
   padding-bottom: 50px;
+  font-weight: 400;
 }
 
 p{
-  font-weight: 1000;
+  font-weight: 400;
+  color: #161616;
 }
 
 /*** classes and ids ***/
+
 .navbar-div {
   position: relative;
   z-index: 5;
@@ -76,15 +82,23 @@ p{
   display: none;
 }
 
+.top-container h1{
+  color: #fff;
+}
+
+.top-container p{
+  color: #fff;
+}
+
 .top-container {
   display: flex;
   /* background: url(../images/bg-intro-desktop.svg) no-repeat hsl(0, 0%, 98%); */
-  background-position: 300% 50%;
   padding: 10%;
   overflow: hidden;
   align-content: flex-start;
   justify-content: space-around;
   text-align: left;
+  color: #fff;
 }
 
 .logo-img{
@@ -93,8 +107,8 @@ p{
 }
 
 .typing-demo {
-  width: 22ch;
-  animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+  width: 26ch;
+  animation: typing 2s steps(30), blink .5s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;
   border-right: 3px solid;
@@ -114,7 +128,7 @@ p{
 }
 
 .main-heading h1 {
-  width: 310px;
+  width: 320px;
   font-weight: 400;
 }
 
@@ -131,6 +145,10 @@ p{
   top: 6%;
 }
 
+.mobile-login-div h1{
+  color:  hsl(0, 0%, 81%);
+}
+
 .username{
   width: 100%;
   height: 40px;
@@ -141,14 +159,14 @@ p{
 }
 
 .submit{
-  background: #161616;
+  color : #161616;
   border-style: outset;
   border-color: blanchedalmond;
   margin: 20px auto;
   width: 60%;
   height: 40px;
   border-radius: 20px;
-  color: white;
+  background: hsl(0, 0%, 81%);
   /* box-shadow: 5px 5px 5px #eee; */
 }
 
@@ -173,8 +191,10 @@ p{
 }
 
 .middle-container {
-  background-color: hsl(220, 16%, 96%);
+  font-weight: 100;
+  background-color: hsl(0, 0%, 85%);
   padding: 5% 10%;
+  color: #161616;
 }
 
 .cards-div {
@@ -221,6 +241,7 @@ p{
 .text{
   color: black;
   padding-top: 50%;
+  font-weight: 200;
 }
 
 .bottom-div {

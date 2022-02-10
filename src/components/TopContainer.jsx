@@ -15,7 +15,7 @@ business banking so that you don't have to.</p>
         </div>
         <div className="mobile-login-div">
             <form>
-                <h1 className="login">Login</h1><br/>
+                <h1 className="login"><b>Login</b></h1><br/>
                 <div className="details">
                 <label htmlFor="username">Enter your name:<br/>
                 <input type="text" name="username" className="username" ></input>
