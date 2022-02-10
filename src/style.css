@@ -21,14 +21,13 @@ button {
   display: inline-block;
   cursor: pointer;
   background: #f8f9fa;
-  border-color: #f8f9fa;
   font-size: 17px;
   padding: 10px 25px;
 }
 
 button:hover {
-  color: white;
   background: #161616;
+  color: white;
   /* background: linear-gradient(to right, #31d35c 5%, #2bb7da 100%); */
   border-color: 3px solid white;
 }
@@ -68,14 +67,14 @@ p{
 }
 
 .navbar-div a {
-  color: hsl(233, 8%, 62%);
+  color: hsl(233, 26%, 24%);
   text-decoration: none;
   padding: 40px 10px 0px 10px;
   margin-left: 10px;
 }
 
 .navbar-div a:hover {
-  color: hsl(233, 26%, 24%);
+  color: hsl(233, 8%, 62%);
   border-bottom: solid 3px hsl(0, 0%, 17%);
 }
 .hamburger-icon{
