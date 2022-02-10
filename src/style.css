@@ -83,6 +83,7 @@ p{
   overflow: hidden;
   align-content: flex-start;
   justify-content: space-around;
+  text-align: left;
 }
 
 .logo-img{
@@ -281,13 +282,12 @@ p{
     /* background-image: url("../images/bg-intro-mobile.svg"); */
     background-position: top;
     background-size: contain;
-    padding: 0 0 100px 0;
   }
 
   .main-heading h1 {
     width: 60%;
     display: inline-block;
-    padding-top: 50px;
+    padding-top: 25px;
   }
 
   .main-heading p {
