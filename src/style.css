@@ -2,7 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 body {
-  max-width: 1440px;
+  max-width: 2000px;
   font-family: 'Poppins', sans-serif;
   color: hsl(233, 8%, 62%);
   line-height: 1.5;
