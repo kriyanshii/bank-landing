@@ -23,7 +23,7 @@ function Contact() {
       <div className="about-info">
         <button type="button" name="button">Get Started</button>
 
-        © Kriyanshi Shah. All Rights Reserved
+        <a href='http://kriyanshishah.github.io/' target={'_blank'}>© Kriyanshi Shah.</a> All Rights Reserved
       </div>
     </div>
   )
