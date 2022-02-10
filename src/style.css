@@ -78,7 +78,7 @@ p{
   padding: 10%;
   overflow: hidden;
   align-content: flex-start;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .logo-img{
