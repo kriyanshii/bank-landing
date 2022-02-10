@@ -10,7 +10,7 @@ and it is reliable!</h1>
     <div className="cards-div">
       <div className="">
         <h3>Online Banking</h3>
-        <p> Our modern web and mobile applications allow you to keep track of your finances
+        <p> Our modern web and mobile applications allow<br></br> you to keep track of your finances
           wherever you are in the world.</p>
       </div>
 

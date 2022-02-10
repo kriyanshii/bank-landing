@@ -246,7 +246,7 @@ p{
 
 
 /** media screen classes*/
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 650px) {
   body {
     text-align: center;
   }
@@ -309,7 +309,7 @@ p{
 
   .mobile-login-div {
     position: relative;
-    left: 20%;
+    left: 4%;
     right: 0;
     width: 60%;
     display: inline-block;
