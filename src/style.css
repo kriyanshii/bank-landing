@@ -7,6 +7,8 @@ body {
   color: hsl(233, 8%, 62%);
   line-height: 1.5;
   margin: 0;
+  /* background: #161616; */
+  background: #fff;
 }
 
 button {
@@ -47,6 +49,7 @@ p{
 .navbar-div {
   position: relative;
   z-index: 5;
+  /* background: #161616; */
   background-color: #fff;
   display: flex;
   justify-content: space-between;
@@ -141,7 +144,7 @@ p{
   height: 40px;
   border-radius: 20px;
   color: white;
-  box-shadow: 5px 5px 5px #eee;
+  /* box-shadow: 5px 5px 5px #eee; */
 }
 
 .heading{

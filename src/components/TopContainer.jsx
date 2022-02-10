@@ -28,6 +28,7 @@ business banking so that you don't have to.</p>
             </form>
         </div>
         </div>
+        <div className="wave"></div>
     </div>
   )
 }
