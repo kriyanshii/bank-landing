@@ -1,5 +1,7 @@
 import React from "react";
 import "./style.css";
+
+import { BrowserRouter as Router} from'react-router-dom'
 import Navbar from "./components/Navbar";
 import TopContainer from "./components/TopContainer"
 import Middle from "./components/Middle"
@@ -10,13 +12,16 @@ import Contact from "./components/Contact"
 
 function App() {
   return (
-      <div>
-        <Navbar />
+    <div>
+      <Router>
+          <Navbar />
+        </Router>
         <TopContainer />
         <Middle />
         <Bottom />
         <Contact />
-      </div>
+    </div>
+
   );
 }
 
